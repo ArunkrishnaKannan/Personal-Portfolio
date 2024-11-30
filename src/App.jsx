@@ -1,9 +1,8 @@
-import About from './assets/Components/About'
-import Banner from './assets/Components/Banner'
-import Nav from './assets/Components/Nav'
-import Project from './assets/Components/Project'
-import Contact from './assets/Components/Contact'
-import Footer from './assets/Components/Footer'
+import About from './Components/About'
+import Banner from './Components/Banner'
+import Nav from './Components/Nav'
+import Project from './Components/Project'
+import Contact from './Components/Contact'
 function App() {
 
   return (
@@ -13,7 +12,6 @@ function App() {
     <About />
     <Project />
     <Contact />
-    <Footer />
     </div>
   )
 }

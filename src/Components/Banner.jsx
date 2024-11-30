@@ -1,9 +1,9 @@
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai"
-import img from "../images/hacking.png"
+import img from "../assets/images/hacking.png"
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import React, { useEffect } from "react";
-import {FaMedium} from 'react-icons/fa6'
+import {useEffect } from "react";
+import {FaMedium} from 'react-icons/fa6';
 const Banner = () => {
   useEffect(() =>{
     AOS.init({
@@ -32,8 +32,6 @@ const Banner = () => {
             <a href="https://medium.com/@arunkrishnakannan97" target="_blank" className="text-white hover:text-green-500 rounded-full glow p-2">
               <FaMedium className="text-[24px]"/>
             </a>
-
-
             </div>
           </div>
         </div>
