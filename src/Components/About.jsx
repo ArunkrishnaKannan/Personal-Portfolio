@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div id = "pdf-content" className="flex space-x-2">
-           <a href="/ArunKrishnaResume.pdf" download><button  className="neon-button shadow-xl hover:shadow-green-200/50 text-white border-2 hover:bg-green-500 border-green-500 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button></a>
+           <a href="https://drive.google.com/file/d/1Rs4YnwG9QSNsz1LckV01Y0sr_e5oNCJs/view?usp=sharing" target="_blank"><button  className="neon-button shadow-xl hover:shadow-green-200/50 text-white border-2 hover:bg-green-500 border-green-500 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button></a>
             </div>
           </div>
         </div>
